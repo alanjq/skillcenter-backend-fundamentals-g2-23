@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    /* Estilos para la etiqueta section */
+    position: relative;
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flexbox;
+    justify-content: flex-end;
+    padding: 20px;
+    /* padding: arriba derecha abajo izquierda; */
+}
+
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+a {
+    color: #111;
+    font-size: 20px;
+}
